@@ -1,0 +1,166 @@
+html, body { 
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+p { 
+    padding:0;
+    margin: 0;
+}
+
+.post {
+    margin: 0 auto;
+    width: calc(100% - 30px);
+    box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+}
+
+.container{
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    line-height: 0em;
+    background-color: slategray;
+    position: relative;
+    display: block;
+    color: white;
+}
+
+.post-ul  {
+    list-style-type: none;
+    display: block;
+    padding:0;
+    margin: 0;
+}
+.post-ul .post-li {
+    list-style-type: none;
+    display: block;
+    padding:10px;
+    margin: 0;
+    padding-left:20px;
+    padding-bottom: 13px;
+    background-color: white;
+    border-bottom: 1px solid rgb(126, 98, 197);
+}
+
+.post-ul .post-li:last-child {
+    border-bottom: 0px;
+}
+
+.post-li:hover  {
+    background-color: silver;
+   
+}
+
+.content {
+    display: inline-block;
+    padding: 2px;
+}
+.content{
+    margin-right: 2px;
+}
+
+.content:hover {
+    display: inline-block;
+    background-color: silver;
+}
+
+.tag { 
+    padding:20px;
+    background-color: white;
+}
+
+.containerAll {
+	width: 1400px;
+	min-height: 10px;
+	text-align: center;
+	display:table-cell;
+	vertical-align: middle;
+	padding:30px 0;
+}
+
+.containerAll h1 {
+	padding:0;
+	margin: 0;
+	line-height: 1;
+	margin-top: 70px;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+
+ .leftContainer {
+	width: calc(100% - 31px);
+	background-color: blanchedalmond;
+	margin:16px;
+}
+
+.btn { 
+	padding:10px 20px;
+	margin:20px 0;
+	border:1px solid rebeccapurple;
+}
+.btn:hover { 
+	
+}
+
+.blackBox { 
+	padding:4px 10px;
+	margin: 0;
+	background-color: black;
+	color: white;
+}
+
+.commentBox {
+	float: right;
+	margin-top:30px;
+	margin-right: 20px;
+}
+
+.pageCircle {
+	background-color: black;
+	border-radius: 100%;
+	color: white;
+	padding:5px 10px;
+}
+
+@media only screen and (min-width:900px){
+	body { 
+		background-color: rgb(255, 219, 153);
+	}
+}
+
+@media only screen and (min-width:768px){
+	body { 
+		background-color: rgb(220, 246, 224);
+	}
+}
+
+@media only screen and (min-width:768px){
+	body { 
+		background-color: rgb(220, 246, 224);
+	}
+
+	.left { 
+		float: left;
+		width: 70%;
+	}
+	.right { 
+		float: right;
+		width: 30%;
+	}
+	.totalContainer::after {
+		content:"";
+		display: table;
+		clear: both;
+	}
+}
+
+.tatalContainer { 
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.footer {
+	min-height: 30px;
+	background-color: lightgray;
+}
+
